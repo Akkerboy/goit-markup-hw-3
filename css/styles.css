@@ -223,6 +223,20 @@ padding-bottom: 5px;
 /* section 2 */
 
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: - 1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset (100%);
+    clip: rect (0 0 0 0);
+    overflow: hidden;
+}
+
+
 .list-webstudio{
     display: flex;
     gap: 24px;
@@ -234,7 +248,7 @@ padding-bottom: 5px;
     
 
 .section-webstudio{
-    padding-top: 33px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -246,6 +260,7 @@ padding-bottom: 5px;
         line-height: 1.20;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .text-webstudio{
@@ -403,6 +418,8 @@ padding-bottom: 5px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 
