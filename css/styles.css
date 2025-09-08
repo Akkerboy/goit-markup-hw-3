@@ -38,10 +38,46 @@ ul{
     padding: 0;
 }
 
-.header {
+
+/* header section */
+
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
 }
 
+.header{
+    margin: 87px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #E7E9FC;
+}
 
+.navigation-header{
+    display: flex;
+    align-items: center;
+}
+
+.list-header{
+    display: flex;
+    gap: 40px;
+}
+
+.header-list-contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+   
+    
 
 
 
@@ -52,7 +88,9 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;}
+color: #4d5ae5;
+margin-right: 76px;
+}
 
 
 
@@ -98,9 +136,13 @@ padding-bottom: 5px;
 
 }
 
+
+
 .address-header{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
+
 
 
 .link-contacts{
@@ -180,6 +222,17 @@ padding-bottom: 5px;
 
 /* section 2 */
 
+
+.list-webstudio{
+    display: flex;
+    gap: 24px;
+}
+
+.item-webstudio{
+    width: calc((100% - 72px) / 4);
+}
+    
+
 .section-webstudio{
     padding-top: 33px;
     padding-bottom: 120px;
@@ -231,12 +284,17 @@ padding-bottom: 5px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: center;
+        margin-top: 32px;
 }
 
 
  .item-team{
     background-color: #FFFFFF;
- }
+    border-radius: 0 0 4px 4px;
+
+    }
+
 
 .title-team-member{
     font-family: 'Roboto', sans-serif;
@@ -257,9 +315,40 @@ padding-bottom: 5px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        padding-top: 8px;
+        padding-bottom: 32px;
 }
 
+
+.list-team{
+    display: flex;
+    align-content: start;
+    gap: 24px;
+}
+
+
+
 /* section 4 */
+
+
+
+.list-portfolio{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.item-portfolio{
+    padding-bottom: 16px; 
+    border-bottom: 1px solid  #E7E9FC;
+        border-left: 1px solid  #E7E9FC;
+        border-right: 1px solid #E7E9FC;
+        width: 360px;
+         height: 420px;
+        
+}
 
 
 .section-portfolio{
@@ -277,6 +366,7 @@ padding-bottom: 5px;
         text-transform: capitalize;
         color: #2E2F42;
         margin-bottom: 72px;
+
     }
 
     .title-portfolio-app{
@@ -286,6 +376,10 @@ padding-bottom: 5px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2E2F42;
+            padding-top: 32px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            
     }
 
     .text-portfolio{
@@ -295,6 +389,7 @@ padding-bottom: 5px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            padding-left: 16px;
     }
 
 
