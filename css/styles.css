@@ -46,19 +46,19 @@ ul{
 .header-container{
     display: flex;
     align-items: center;
-    
+
 }
 
 .header{
-    margin: 87px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
     border: 1px solid #E7E9FC;
+    margin: 87px;
 }
 
 .navigation-header{
     display: flex;
-    align-items: center;
+    padding: 24px 0;
+    
 }
 
 .list-header{
@@ -392,6 +392,7 @@ padding-bottom: 5px;
         text-transform: capitalize;
         color: #2E2F42;
         margin-bottom: 8px;
+        margin-bottom: 72px;
 
 
     }
