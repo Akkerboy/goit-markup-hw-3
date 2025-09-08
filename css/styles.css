@@ -46,6 +46,7 @@ ul{
 .header-container{
     display: flex;
     align-items: center;
+    padding: 24px 0;
 
 }
 
@@ -57,7 +58,7 @@ ul{
 
 .navigation-header{
     display: flex;
-    padding: 24px 0;
+    align-items: center;
     
 }
 
