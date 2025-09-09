@@ -60,7 +60,7 @@ ul{
     
 }
 .item-header{
-    padding: 24px 0 24px 0;
+    
 }
 
 .list-header{
@@ -435,6 +435,7 @@ padding-bottom: 5px;
         color: #4d5ae5;
         display: inline-block;
         margin-bottom: 16px;
+        padding: 24px 0 24px 0;
 }
 
 
