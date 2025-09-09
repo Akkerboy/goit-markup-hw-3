@@ -57,12 +57,15 @@ ul{
 .navigation-header{
     display: flex;
     align-items: center;
+
     
 }
-.link-header{
-    padding: 24px 0 24px 0;
-    
+.menu-header-link{
+    padding: 24px 0;
+      
 }
+
+
 
 .list-header{
     display: flex;
