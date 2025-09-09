@@ -59,11 +59,14 @@ ul{
     align-items: center;
     
 }
+.item-header{
+    padding: 24px 0 24px 0;
+}
 
 .list-header{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .header-list-contacts {
