@@ -41,6 +41,12 @@ ul{
 /* header section */
 
 
+.link-header{
+    display: inline-block;
+    padding: 24px 0 24px 0;
+}
+
+
 
 .header-container{
     display: flex;
@@ -93,6 +99,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+align-self: center;
 margin-right: 76px;
 }
 
@@ -124,8 +131,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-bottom: 5px;
-    padding-top: 5px;
+
+padding: 24px 0 24px 0;
 }
 
 .link-header:focus,
@@ -438,7 +445,7 @@ padding-bottom: 5px;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        margin-bottom: 16px;
+        
         
 }
 
