@@ -457,6 +457,7 @@ padding: 24px 0 24px 0;
      padding-top: 100px;
      padding-bottom: 100px;
  }
+ 
 
 
 .footer-text{
@@ -481,14 +482,13 @@ padding: 24px 0 24px 0;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        
+        margin-bottom: 16px;
    
 }
 
 
 .logo-footer-span {
     color: #f4f4fd;
-    margin-bottom: 16px;
     display: inline-block;
 
 }
